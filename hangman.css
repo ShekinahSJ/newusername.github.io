@@ -1,0 +1,62 @@
+html, body {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-style: solid; /* Change border style */
+        border-color: rgb(255, 0, 0); /* Change border color */
+        border-width: 10px; /* Change border width */
+        text-align: center;
+    }
+    
+    header {
+        height: 100px;
+        background-color: #336699; /* Change background color */
+        color: #FFF;
+        font-family: Arial; /* Change font family */
+        font-size: 25px;
+        padding: 15px;
+    }
+    
+    section {
+        flex: 1;
+        display: flex;
+    }
+    
+    article {
+        flex: 1;
+        font-family: Arial; /* Change font family */
+        font-size: 18px; /* Change font size */
+        padding: 20px; /* Change padding */
+        line-height: 1.5em; /* Adjust line height */
+        background: #f0f0f0; /* Change background color */
+        color: #333; /* Change text color */
+        font-weight: 400; /* Change font weight */
+    }
+    
+    #idResult {
+        padding: 20px;
+        font-size: 18px; /* Change font size */
+    }
+    
+    article button {
+        background-color: #990000; /* Change button background color */
+        border: none;
+        color: #FFF;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px; /* Change font size */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust box shadow */
+    }
+    
+    footer {
+        height: 40px;
+        background-color: #336699; /* Change background color */
+        font-family: Arial; /* Change font family */
+        color: #FFF;
+        clear: both;
+        padding: 10px; /* Change padding */
+    }
+    
